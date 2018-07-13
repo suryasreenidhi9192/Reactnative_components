@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoogleMapVanilla /> should create ref when the component is mounted 1`] = `
+<GoogleMap
+  activeBrand="OUTLET_LOFT"
+  deviceType="desktop"
+  isStoreLocator={true}
+  storeDetails={
+    Object {
+      "allStores": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              -73.9783318,
+              40.7576495,
+            ],
+            "type": "Point",
+          },
+          "properties": Object {
+            "Company": "ATS",
+            "Country_Id": "US",
+            "Fri_Close": "21:00",
+            "Fri_Open": "09:00",
+            "LoftPlus": "N",
+            "Mon_Close": "21:00",
+            "Mon_Open": "09:00",
+            "Petites": "1",
+            "Sat_Close": "21:00",
+            "Sat_Open": "09:00",
+            "Shoes": "1",
+            "Store_Address1": "600 5th Avenue",
+            "Store_City": "New York",
+            "Store_Hours": "Sunday 10:00 a.m. - 07:00 p.m.<br/>Monday 09:00 a.m. - 09:00 p.m.<br/>Tuesday 09:00 a.m. - 09:00 p.m.<br/>Wednesday 09:00 a.m. - 09:00 p.m.<br/>Thursday 09:00 a.m. - 09:00 p.m.<br/>Friday 09:00 a.m. - 09:00 p.m.<br/>Saturday 09:00 a.m. - 09:00 p.m.",
+            "Store_Id": "805",
+            "Store_Name": "Between 48th & 49th",
+            "Store_Phone": "(212) 922-3621",
+            "Store_State": "NY",
+            "Store_Zip": "10020",
+            "Sun_Close": "19:00",
+            "Sun_Open": "10:00",
+            "Thu_Close": "21:00",
+            "Thu_Open": "09:00",
+            "Time_Zone": "EST",
+            "Tue_Close": "21:00",
+            "Tue_Open": "09:00",
+            "Wed_Close": "21:00",
+            "Wed_Open": "09:00",
+            "distance": "462.5844240238359",
+          },
+          "type": "Feature",
+        },
+      ],
+    }
+  }
+  stores={
+    Immutable.List [
+      Immutable.Map {
+        "storeId": "805",
+        "inventory": "0",
+        "stockStatus": "Out of Stock",
+        "type": "",
+        "message": "",
+        "showPickupInStore": "false",
+        "storeSelected": "false",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "minHeight": "100%",
+        "minWidth": "100%",
+      }
+    }
+  />
+</GoogleMap>
+`;
+
+exports[`<GoogleMapVanilla /> should not render when no allStores 1`] = `""`;
+
+exports[`<GoogleMapVanilla /> should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "minHeight": "100%",
+      "minWidth": "100%",
+    }
+  }
+/>
+`;
